@@ -18,7 +18,7 @@ set clipboard=unnamed,autoselect
 " シンタックスハイライト（OneDark）
 "
 " https://github.com/joshdick/onedark.vim
-" (.vim/pack/mypackage/opt/onedark.vim)
+" (.vim/pack/myplugins/start/onedark.vim)
 "----------------------------------------
 packadd! onedark.vim
 syntax on
@@ -30,14 +30,14 @@ set background=dark
 " 様々な言語のシンタックスやインデントを提供
 "　
 " https://github.com/sheerun/vim-polyglot
-" (.vim/pack/mypackage/start/vim-polyglot)
+" (.vim/pack/myplugins/start/vim-polyglot)
 "----------------------------------------
 
 "----------------------------------------
 " カラフルなステータスラインを表示する
 "　
 " https://github.com/itchyny/lightline.vim
-" (.vim/pack/mypackage/start/lightline)
+" (.vim/pack/myplugins/start/lightline)
 "----------------------------------------
 " ステータスラインの見た目の種類
 set laststatus=2
