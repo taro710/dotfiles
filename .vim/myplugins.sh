@@ -1,12 +1,12 @@
 #!/bin/sh
 
-mkdir ~/.vim/pack/myplugins/start
-mkdir ~/.vim/pack/myplugins/opt
+mkdir -p $HOME/.vim/pack/myplugins/start
+mkdir -p $HOME/.vim/pack/myplugins/opt
 
 echo 'vimプラグインインストール開始'
 
 # -------------- 起動時にロードされるプラグイン
-cd ~/.vim/pack/myplugins/start
+cd $HOME/.vim/pack/myplugins/start
 # シンタックスハイライト（OneDark）
 echo '=======シンタックスハイライト（OneDark）インストール開始======='
 git clone https://github.com/joshdick/onedark.vim.git
@@ -22,4 +22,4 @@ git clone https://github.com/itchyny/lightline.vim.git
 
 
 # -------------- 任意タイミング（:packadd myplugin）でロードされるプラグイン
-cd ~/.vim/pack/myplugins/opt
+cd $HOME/.vim/pack/myplugins/opt
