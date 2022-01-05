@@ -12,6 +12,7 @@ brew "ruby"
 brew "macvim"
 brew "mysql@5.7", restart_service: true
 brew "nodebrew"
+brew "nvm"
 brew "postgresql", restart_service: true
 brew "python@3.8"
 brew "ruby-build"
