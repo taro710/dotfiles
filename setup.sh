@@ -8,6 +8,15 @@
 
 
 ####################
+# アプリのセットアップ
+####################
+
+echo 'アプリインストール開始'
+
+brew bundle install
+
+
+####################
 # vimのセットアップ
 ####################
 
@@ -43,10 +52,3 @@ echo 'preztoインストール開始'
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
 
-####################
-# アプリのセットアップ
-####################
-
-echo 'アプリインストール開始'
-
-brew bundle install
