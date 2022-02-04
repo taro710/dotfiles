@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+brew "arp"
 brew "arp-scan"
 brew "awscli"
 brew "docker", link: false
